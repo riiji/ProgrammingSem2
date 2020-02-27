@@ -15,25 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="framework.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="pch.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="task.h">
+    <ClCompile Include="Lab1.cpp">
       <Filter>Исходные файлы</Filter>
-    </ClInclude>
+    </ClCompile>
+    <ClCompile Include="methods.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="lab.cpp">
+    <ClInclude Include="methods.h">
       <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="pch.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="task.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
+    </ClInclude>
   </ItemGroup>
 </Project>
