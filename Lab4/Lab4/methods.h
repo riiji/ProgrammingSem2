@@ -36,7 +36,7 @@ public:
 	virtual bool operator< (IPhysObject& ob) = 0;
 };
 
-class Line : public IGeoFig, public IPhysObject, IPrintable, IDialogInitiable, BaseCObject
+class Line : IGeoFig, IPhysObject, IPrintable, IDialogInitiable, BaseCObject
 {
 public:
 	Vector2D origin;

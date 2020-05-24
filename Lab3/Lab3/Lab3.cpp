@@ -14,7 +14,7 @@ int main()
 	std::cout << (a != b) << std::endl;
 
 	a.multiplyside(2);
-
+	
 	std::cout << (a == b) << std::endl;
 }
 
